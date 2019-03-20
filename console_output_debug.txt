@@ -1,0 +1,56 @@
+Processing [ sample_input.cfg ] in DEBUG mode
+Parsing config file [ sample_input.cfg ], size: 2322 bytes
+
+Key   : const bool SIMULATE_ALL_SCHEDULING_ALGORITHMS
+Value : true;
+
+Key   : const int SCHEDULING_ALGORITHM
+Value : SCHEDULING_ROUND_ROBIN;
+
+Key   : const long long TIME_QUANTUM
+Value : MAX_TIME_REQUIRED / 2;
+
+Key   : const long int JOBS_TO_CREATE
+Value : 1000;
+
+Key   : const int RESPONSE_TIME_THRESHOLD
+Value : JOBS_TO_CREATE;
+
+Key   : const bool SHOW_JOB_STATUS
+Value : true;
+
+Key   : const bool USE_RANDOM_JOB_CREATION_SLEEP
+Value : false;
+
+Key   : const int STATS_DISPLAY_INTERVAL
+Value : -1;
+
+Key   : const int JOB_CREATION_SLEEP_MAX
+Value : 1000;
+
+Key   : const int JOB_CREATION_SLEEP_CONST
+Value : 1000;
+
+
++------------------------------------------------------------------
+| Config file parsing details:
++------------------------------------------------------------------
+Config file name                   : sample_input.cfg
+Lines in file                      : 59
+Valid entries                      : 10
+Invalid entries                    : 10
+Commented/Whitespace               : 39
++------------------------------------------------------------------
+
+
+Invalid lines found in [ sample_input.cfg ]
+Line #10 : dfd
+Line #22 : dfd=
+Line #24 : = abc
+Line #31 : details
+Line #32 : abc dfd df98o
+Line #41 : dfdfof simulation.
+Line #51 : dfdf
+Line #56 : dfdfdfd
+Line #58 : dsf
+Line #59 : df98odsf
